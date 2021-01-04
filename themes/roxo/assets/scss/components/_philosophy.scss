@@ -2,6 +2,10 @@
   background: $gray;
   padding: 100px 0;
   overflow: hidden;
+  @include mobile{
+    text-align: center;
+  }
+
   &-portrait{
     width: 100%;
     @include tablet{
@@ -16,8 +20,9 @@
     font-size: 20px;
     margin-bottom: 15px;
   }
-  &-name{
+  &-position{
     font-size: 20px;
+    margin-bottom: 50px;
   }
   &-quote{
     p{

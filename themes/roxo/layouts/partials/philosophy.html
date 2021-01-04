@@ -15,20 +15,20 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3">
-          <img class="site-philosophy-portrait" src="{{ .image | absURL }}" alt="portrait">
-          <div class="row">
-            <div class="site-philosophy-name">
-              <h4>{{ .name| safeHTML}}</h4>
-            </div>
-            <br>
-            <div class="site-philosophy-position">
-              <h6>{{ .position| safeHTML}}</h6>
-            </div>
+        <div class="col-md-4 col-lg-3 offset-lg-1">
+          <div class="col-12">
+            <img class="site-philosophy-portrait" src="{{ .image | absURL }}" alt="portrait">
+          </div>
+          <div class="col-12 site-philosophy-name">
+            <h4>{{ .name| safeHTML}}</h4>
+          </div>
+          <br>
+          <div class="col-12 site-philosophy-position">
+            <h6>{{ .position| safeHTML}}</h6>
           </div>
         </div>
-        <div class="col-lg-7 offset-lg-1">
-          <div class="site-philosophy-quote">
+        <div class="col-md-8 col-lg-7 offset-lg-1">
+          <div class="col-12 site-philosophy-quote">
             <p>"{{ .quote | safeHTML}}"</p> 
           </div>
         </div>

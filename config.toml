@@ -66,7 +66,7 @@ summarylength = 25
     primary_button      = "EMAIL"
     primary_button_url  = "mailto:info@martinschenk.com"
     secondary_button    = "TELEFON"
-    secondary_button_url = "tel:123456789"
+    secondary_button_url = "tel:+49897144004"
 
   [params.footer]
     # Footer Contact Info
@@ -76,7 +76,7 @@ summarylength = 25
       street = "Arcisstraße 66"
       zip= "DE-80799"
       city = "München"
-      phone   = "123456789"
+      phone   = "089/7144004"
       email   = "info@martinschenk.com"
       # Footer Sitemap
       [params.footer.sitemap]

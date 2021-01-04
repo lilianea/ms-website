@@ -1,6 +1,9 @@
 .site-footer{
   background: $primary-color;
   padding: 100px 0;
+  @include mobile{
+    text-align: center;
+  }
   &-logo{
     margin-bottom: 50px;
     width: 30vh;
