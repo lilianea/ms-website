@@ -1,0 +1,8 @@
+enable : true
+title: "VEREINBAREN SIE IHREN TERMIN NOCH HEUTE"
+background: images/backgrounds/munich-background.jpg
+primary_button: "EMAIL"
+primary_button_url: "contact"
+secondary_button: "TELEFON"
+secondary_button_url: "portfolio"
+

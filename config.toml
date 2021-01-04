@@ -1,0 +1,96 @@
+baseURL       = "http://example.org/"
+languageCode  = "en-us"
+title         = "Martin Schenk Immobilien"
+theme         = "roxo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "Philosophie"
+    url     = "#philosophy"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Services"
+    url     = "#services"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Termin vereinbaren"
+    url     = "#cta"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo-ms.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Martin Schenk Immobilien in München und Umgebung"
+  author = "StaticMania"
+  # Google Analitycs
+  # googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  # formspreeFormUrl  = "https://formspree.io/myykjpje"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Blog"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "Ihr Immobilienmakler in München"
+    tagline               = "DAS BESONDERE ERLEBNIS"
+    primary_button        = "Über uns"
+    primary_button_url    = "/#philosophy"
+    secondary_button      = "Kontakt"
+    secondary_button_url  = "/#cta"
+
+  [params.portfolio]
+    enable    = true
+    title     = "UNSERE PHILOSOPHIE"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/munich-background.jpg"
+    title               = "VEREINBAREN SIE NOCH HEUTE IHREN TERMIN"
+    primary_button      = "EMAIL"
+    primary_button_url  = "mailto:info@martinschenk.com"
+    secondary_button    = "TELEFON"
+    secondary_button_url = "tel:123456789"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Kontakt"
+      name = "Martin Schenk"
+      street = "Arcisstraße 66"
+      zip= "DE-80799"
+      city = "München"
+      phone   = "123456789"
+      email   = "info@martinschenk.com"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Weitere Informationen"
+        [[params.footer.sitemap.link]]
+          name = "Impressum"
+          url  = "imprint"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Medium"
+          url  = "#"
+      # Footer Service
+      [params.footer.service]
+        title       = "Wir verwirklichen Träume"
+        description = "Wir helfen Ihnen dabei Ihre Immobilie im Alter zu verkaufen. So können Sie entspannt in den letzten Abschnitt Ihres Lebens starten."

@@ -1,0 +1,11 @@
+enable : true
+heading : "IHR LANGJÄHRIGER PARTNER STEHT IHNEN ZUR SEITE"
+counter_item: 
+  - title: "Jahre Erfahrung"
+    number: "25+"
+
+  - title: "Objekte in Datenbank"
+    number: "20000"
+
+  - title: "Tage im Jahr für Sie da"
+    number: "365"

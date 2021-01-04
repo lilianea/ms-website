@@ -1,0 +1,8 @@
+enable : true
+title : "UNSERE SERVICES"
+services :
+  - text: "Fokus auf Verrentung"
+  - text: "Besichtigungen"
+  - text: "Objektaufnahmen"
+  - text: "Unterstützung bei Kaufverträgen"
+  - text: "Notarielle Begleitung"
